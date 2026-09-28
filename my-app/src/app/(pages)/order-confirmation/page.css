@@ -1,0 +1,254 @@
+.Order-ConfirmationComponent {
+    width: 100%;
+}
+
+.Order-ConfirmationComponent-in {
+    width: 100%;
+}
+
+.order-one {
+    width: 100%;
+}
+
+.order-one-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.order-one-in-one {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.order-one-in-one img {
+    width: 100%;
+}
+
+.order-one-in-two {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.order-one-in-two a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+}
+
+.order-one-in-two a:hover {
+    background-color: black;
+    color: white;
+}
+
+.order-two {
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+.order-two-in {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.order-two-in h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: .5rem 0rem;
+}
+
+.order-two-in p {
+    font-size: 1rem;
+    color: rgb(78, 76, 76);
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.order-ad-one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.order-ad-one input {
+    border: 2px solid black;
+    width: 49%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.order-ad-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+.order-ad-two input {
+    width: 49%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.order-ad-three {
+    width: 100%;
+}
+
+.order-ad-three textarea {
+    width: 100%;
+    font-size: 1rem;
+    color: rgb(78, 76, 76);
+    padding: 1rem 1rem;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.order-ad-four {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+.order-ad-four input {
+    width: 49%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.order-ad-five {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+.order-ad-five input {
+    width: 49%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.order-three {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.order-three button {
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+}
+
+.error {
+    border: 1px solid #ff0000 !important;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 12px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+/* Add margin to input groups to accommodate error messages */
+.order-ad-one,
+.order-ad-two,
+.order-ad-three,
+.order-ad-four {
+    margin-bottom: 25px;
+}
+
+
+@media (max-width: 768px) {
+
+    .order-one-in-one {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .order-one-in-one img {
+        width: 80%;
+    }
+    
+    .order-one-in-two {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1.5rem;
+    }
+    
+    .order-one-in-two a {
+        text-decoration: none;
+        color: black;
+        font-size: .8rem;
+        font-weight: 600;
+        border: 1px solid black;
+        padding: .5rem .5rem;
+        border-radius: 10px;
+    }
+    
+    .order-two-in {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .order-three {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

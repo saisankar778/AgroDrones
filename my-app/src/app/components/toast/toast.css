@@ -1,0 +1,57 @@
+
+
+.ToastComponent {
+    min-width: 350px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.ToastComponent-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.toast-one {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toast-two {
+    width: 90%;
+    padding: 0rem 1rem;
+}
+
+.toast-two h1 {
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+}
+
+.toast-two p {
+    font-size: .8rem;
+    color: black;
+    font-weight: 400;
+}
+
+.icon-success {
+    color: green;
+    font-size: 1rem;
+}
+
+.icon-error {
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 1rem;
+}
