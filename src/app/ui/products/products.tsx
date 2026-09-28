@@ -9,12 +9,12 @@ export const products = () => {
     {
         title: 'Quadcopters',
         description: 'High-precision spraying drone for Small farms.',
-        image: '/products/home/Hexacopter_10L.png'
+        image: '/products/home/Quadcopter_16L.png'
     },
     {
         title: 'Hexacopters',
         description: 'High-precision spraying drone for large farms.',
-        image: '/products/home/Quadcopter_16L.png'
+        image: '/products/home/Hexacopter_10L.png'
     },
     {
         title: 'Seed Spreaders',

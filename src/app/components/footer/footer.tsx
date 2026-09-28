@@ -92,9 +92,6 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className="footer-two">
-                    <p>© 2025 AgroDrone Tech. All rights reserved. Designed and Developed by <Link href="https://www.saitadikonda.in" target='_blank'>Tadikonda Sai Manikanta</Link> </p>
-                </div>
             </div>
         </div>
   )

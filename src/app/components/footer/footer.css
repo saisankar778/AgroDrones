@@ -117,29 +117,6 @@
     color: rgb(125, 123, 123);
 }
 
-.footer-two {
-    width: 90%;
-    margin: 0 auto;
-    border-top: 1px solid rgb(198, 197, 197);
-    padding: 1rem 0rem;
-}
-
-.footer-two p {
-    font-size: .8rem;
-    color: rgb(125, 123, 123);
-    text-align: left;
-}
-
-.footer-two p a {
-    text-decoration: none;
-    color: rgb(125, 123, 123);
-}
-
-.footer-two p a:hover {
-    color: green;
-}
-
-
 @media (max-width: 768px) {
 
     .footer-one {
@@ -178,7 +155,4 @@
         justify-content: flex-start;
     }
 
-    .footer-two p {
-        text-align: center;
-    }
 }
